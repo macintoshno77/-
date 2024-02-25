@@ -1,0 +1,29 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 30px;
+  padding-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  display: flex;
+  padding: 10px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer__plus {
+  width: 20px;
+  cursor: pointer;
+}
+.footer__send {
+  width: 20px;
+  cursor: pointer;
+}
+
+.footer__m {
+  width: 200px;
+  border-radius: 10px;
+  border-color: rgba(0, 0, 0, 0);
+}
